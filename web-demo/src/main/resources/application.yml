@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  undertow:
+    threads:
+      io: 4
+      worker: 32
+  jetty:
+    threads:
+      max: 100
+      min: 20
+
